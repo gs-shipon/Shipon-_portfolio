@@ -7,6 +7,7 @@ import Home from './components/pages/Home'
 import Error from './components/pages/Error'
 import Services from './components/pages/Services'
 import Contact from './components/layout/Contact'
+import Project from './components/pages/Projects'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Route path="about" element={<About />} />
     <Route path="servics" element={<Services />} />
      <Route path="contact" element={<Contact />} />
+      <Route path="Projects" element={<Project />} />
     <Route path="*" element={<Error />} /> 
    </Route>
    </Routes>
